@@ -1,0 +1,17 @@
+# Created using wingetcreate 1.12.8.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: MetalBear.mirrord
+PackageVersion: 3.215.0
+InstallerLocale: en-US
+InstallerType: wix
+ProductCode: '{6836548F-AAC5-4E47-B074-D293618078F6}'
+AppsAndFeaturesEntries:
+- DisplayVersion: 3.215.0
+Installers:
+- Architecture: x86
+  InstallerUrl: https://github.com/metalbear-co/mirrord/releases/download/3.215.0/mirrord.msi
+  InstallerSha256: F3D412C332EAF9DC33818E94F51FA37425778BA1B746C1D7D6CD7546A072E4F5
+ManifestType: installer
+ManifestVersion: 1.12.0
+ReleaseDate: 2026-06-04
